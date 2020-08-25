@@ -6,6 +6,9 @@ module.exports ={
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
   },
+  devServer: {
+    contentBase: path.resolve(__dirname, 'public' ),
+  },
   module: {
     rules: [
       {
@@ -20,8 +23,8 @@ module.exports ={
         test: /\.css$/,
         exclude : /node_modules/,
         use: [
-          {loader: 'stylecss-loader',},
-          {loader: 'css-loarder'},
+          {loader: 'style-loader'},
+          {loader: 'css-loader'}
         ]
       }
     ]

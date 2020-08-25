@@ -13,9 +13,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "style-loader": "^1.2.1",
-    "webpack": "^4.44.1",
-    "webpack-dev-server": "^3.11.0"
+    "style-loader": "^1.2.1"
+    
   },
   "scripts": {
     "start": "react-scripts start",
